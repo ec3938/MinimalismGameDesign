@@ -27,4 +27,8 @@ public class Obstacle : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    void Start(){
+        Destroy(gameObject, 10f);
+    }
 }

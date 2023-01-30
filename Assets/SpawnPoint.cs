@@ -9,5 +9,6 @@ public class SpawnPoint : MonoBehaviour
     void Start()
     {
         Instantiate(obstacle, transform.position, Quaternion.identity);
+        Destroy(transform.parent.gameObject);
     }
 }
