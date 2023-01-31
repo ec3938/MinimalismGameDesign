@@ -258,7 +258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3254717, g: 1, b: 0.3345918, a: 0.5372549}
+  m_Color: {r: 0.48759344, g: 0.4890202, b: 0.6509434, a: 0.5372549}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -538,7 +538,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Wall Jumper!
+  m_Text: UPWARDS
 --- !u!222 &1913340836
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -583,7 +583,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -40}
-  m_SizeDelta: {x: 200, y: 30}
+  m_SizeDelta: {x: 238.1704, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040901848
 MonoBehaviour:
@@ -608,7 +608,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 18
-    m_FontStyle: 0
+    m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
@@ -618,7 +618,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press Space to Play
+  m_Text: PRESS SPACE TO PLAY
 --- !u!222 &2040901849
 CanvasRenderer:
   m_ObjectHideFlags: 0
