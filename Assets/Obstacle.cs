@@ -25,6 +25,8 @@ public class Obstacle : MonoBehaviour
             other.gameObject.GetComponent<Player>().health -= damage;
             Debug.Log(other.gameObject.GetComponent<Player>().health);
             Destroy(gameObject);
+
+            HealthManager.instance.DamageHealth();
         }
     }
 
