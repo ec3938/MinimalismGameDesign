@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         if (health <= 0) {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene("GameOver");
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && transform.position.x < maxX) { //left side -> right side
